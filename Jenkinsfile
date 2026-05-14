@@ -1,3 +1,7 @@
+agent {
+    docker { image 'python:3.11-slim' }
+}
+
 pipeline {
     agent any
 
